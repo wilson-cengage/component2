@@ -9,7 +9,6 @@ module.exports = {
   context: path.join(__dirname, './client'),
   entry: {
     index: './index.js',
-    index_dynamic: './index_dynamic.js',
     exports: './exports.js'
   },
   output: {
