@@ -29,7 +29,7 @@ export default class Header extends React.Component {
         }
         return (
             <div>
-                <div className="header">Component {value} - content</div>
+                <div className="header">Component {value} - cas</div>
                 <div>{childContent}</div>
             </div>
         );
