@@ -1,12 +1,11 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import Header from 'components/Header';
+import DatePicker from 'components/DatePicker';
 
 import 'index.html';
-import 'systemjs.config';
 
 ReactDOM.render(
-  <Header/>,
+  <DatePicker/>,
   document.getElementById('root')
 );
