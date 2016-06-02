@@ -67,6 +67,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.ContextReplacementPlugin(/moment[\\\/]locale$/, /^\.\/(en|ko|ja|zh-cn)$/),  /* moment webpack bundling bug */
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false
